@@ -19,10 +19,7 @@ number = gets.chomp.to_i
 
 caesar_cipher(text, number)
 
-caesar_cipher(text, 5)
-
 caesar_cipher("Aa", 5)
-#caesar_cipher("Zz", 5)
-#caesar_cipher("Hello", 5)
-#caesar_cipher("Hello World", 5)
-#caesar_cipher("Hello World!", 5)
+caesar_cipher("Zz", 5)
+caesar_cipher("Hello", 5)
+caesar_cipher("Hello World!", 5)
