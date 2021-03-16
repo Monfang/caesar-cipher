@@ -11,6 +11,10 @@ def caesar_cipher(string, shift)
   return cipher
 end
 
+print "What would you like to encrypt?"
+text = gets.chomp
+
+caesar_cipher(text, 5)
 
 caesar_cipher("Aa", 5)
 #caesar_cipher("Zz", 5)
