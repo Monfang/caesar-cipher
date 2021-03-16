@@ -14,6 +14,11 @@ end
 print "What would you like to encrypt?"
 text = gets.chomp
 
+print "How much would you like to shift your message?"
+number = gets.chomp.to_i
+
+caesar_cipher(text, number)
+
 caesar_cipher(text, 5)
 
 caesar_cipher("Aa", 5)
