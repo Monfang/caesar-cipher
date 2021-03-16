@@ -1,8 +1,8 @@
-def caesar_cipher(string, shift)
+def caesar_cipher(message, shift)
   lowercase_letters = ('a'..'z').to_a
   cipher = ''
 
-  string.each_char do |letter|
+  message.each_char do |letter|
     if lowercase_letters.include? (letter.downcase)
       shift.times { letter = letter.next}
     end
